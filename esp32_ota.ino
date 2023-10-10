@@ -4,8 +4,8 @@
 #include <WiFiClientSecure.h>
 #include "cert.h"
 
-const char * ssid = "home_wifi";
-const char * password = "helloworld";
+const char * ssid = "Airtel_SDPA";
+const char * password = "Sahil@#9627";
 
 
 String FirmwareVer = {
