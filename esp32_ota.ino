@@ -9,7 +9,7 @@ const char * password = "Sahil@#9627";
 
 
 String FirmwareVer = {
-  "2.0"
+  "3.0"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/SahilNarde/Fota_Trial/main/bin_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/SahilNarde/Fota_Trial/main/fw.bin"
@@ -86,7 +86,6 @@ void setup() {
   connect_wifi();
 }
 void loop() {
-  Serial.println("this prog is done using FOTA");
   if (button_boot.pressed) { //to connect wifi via Android esp touch app 
     Serial.println("Firmware update Starting..");
     firmwareUpdate();
