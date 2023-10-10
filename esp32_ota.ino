@@ -86,6 +86,7 @@ void setup() {
   connect_wifi();
 }
 void loop() {
+  Serial.println("this prog is done using FOTA");
   if (button_boot.pressed) { //to connect wifi via Android esp touch app 
     Serial.println("Firmware update Starting..");
     firmwareUpdate();
