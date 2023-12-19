@@ -9,7 +9,7 @@ const char * password = "Sahil@#9627";
 
 
 String FirmwareVer = {
-  "1.0"
+  "1.2"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/SahilNarde/Fota_Trial/main/bin_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/SahilNarde/Fota_Trial/main/fw.bin"
